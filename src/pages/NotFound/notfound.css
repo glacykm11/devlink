@@ -1,0 +1,31 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #FFF;
+}
+
+.not-found h1 {
+    margin-bottom: 8px;
+}
+
+.not-found p {
+    font-style: italic;
+}
+
+.not-found .link {
+    margin-top: 16px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 4px 16px;
+    border-radius: 5px;
+    color: #000;
+    transition: background-color, transform 0.5s;
+}
+
+.not-found .link:hover {
+    background-color: #FFF;
+    transform: scale(1.05);
+}
